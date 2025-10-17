@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Juego del Gato</title>
+</head>
+<body>
+	<!--Inicio De Conatiner-->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col">
+				<!---->
+				<div
+					class="card border-0 position-absolute top-50 start-50 translate-middle shadow-lg p-3 mb-5 bg-body rounded">
+					<div class="card-body">
+						<!---->
+						<h1 class="text-center tipoDeLetra">Juego Del Gato</h1>
+						<!---->
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="card border-0">
+									<div class="card-body">
+										<!---->
+										<div class="text-center">
+											<img src="./img/don_gato.webp" class="tamañoDeImg01 img-fluid" alt="ImgNoEncontrada">
+										</div>
+										<!---->
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="card border-5">
+								<div class="card-body rounded">
+										<!---->
+										<br><br>
+										<table class="table table-bordered table-dark" style="border:white ;">
+											<tr>
+												<td id="0" class="rounded"></td>
+												<td id="1" class="rounded"></td>
+												<td id="2" class="rounded"></td>
+											</tr>
+											<tr>
+												<td id="3" class="rounded"></td>
+												<td id="4" class="rounded"></td>
+												<td id="5" class="rounded"></td>
+											</tr>
+											<tr>
+												<td id="6" class="rounded"></td>
+												<td id="7" class="rounded"></td>
+												<td id="8" class="rounded"></td>
+											</tr>
+										</table>
+										<!---->
+										<h3 class="text-center mt-3 tipoDeLetra" id="turn"></h3>
+										<!---->
+										<div class="d-grid gap-2 col-6 mx-auto">
+											<button class="btn btn-primary" type="button" onclick="reset()">
+												<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+												<span class="sr-only">Reiniciar</span>
+											  </button>
+										</div>
+										<!---->
+										<!---->
+									</div>
+								</div>
+							</div>
+						</div>
+						<!---->
+						<h1 class="text-center mt-4 tipoDeLetra" id="result"></h1>
+						<!---->
+					</div>
+				</div>
+				<!---->
+			</div>
+		</div>
+	</div>
+	<!--Fin De Container-->
+	<!---->
+	<script src="./js/gato.js"></script>
+	<script src="./js/mascaraDeCarga/jquery-3.2.1.min.js"></script>
+	<script src="./js/mascaraDeCarga/jquery.blockUI.js"></script>
+	<script src="./js/mascaraDeCarga/mascara.js"></script>
+
+	<!---->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+	</script>
+</body>
+
+</html>
