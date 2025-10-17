@@ -1,0 +1,3 @@
+$(function(){
+    $('#listaPaises').select2()
+})

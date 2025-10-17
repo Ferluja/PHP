@@ -1,0 +1,11 @@
+body{
+    background-color: aqua;
+}
+.estiloMapa path{
+    fill: red;
+    stroke: black;
+    stroke-width: white;
+}
+.estiloMapa path:hover{
+    fill: yellow;
+}
